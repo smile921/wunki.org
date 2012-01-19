@@ -9,7 +9,7 @@ I like getting email, being the `Exception` if it starts with "[Django] Error…
 
 [Bread & Pepper]: http://breadandpepper.com/
 
-Luckily, there is a great toolkit called [Sentry] from the people of [Disqus] which let's you do centralized logging. Any kind of logging, not just errors. Let me try to sell it to you by listing some features from it [introduction post]:
+Luckily, there is a great toolkit called [Sentry] from the people of [Disqus] which let's you do centralized logging. Let me try to sell it to you by listing some features from it [introduction post]:
 
 [Sentry]: http://readthedocs.org/docs/sentry/en/latest/
 [Disqus]: http://disqus.com/
@@ -26,9 +26,10 @@ In the following post I will show you how to setup a logging server and also how
 ### UDP for Logging
 
 Sentry makes use of a TCP (HTTP) connection. This is frowned upon  for logging because it's a slow protocol due to it's "guarteed delivery". For something non critical like logging an UDP connection is better suited. 
-At the moment, the stable version of Sentry doesn't support UDP. But, for those in need of performance, it's in the making and the [first commits] have been made.
+At the moment, the stable version of Sentry doesn't support UDP. But, for those in need of performance, it's in the making and the [first commits] have been made. Be warned though, other tools like [logstash] are better suited for log streaming.
 
 [first commits]: https://github.com/dcramer/sentry/commit/e2319d258b564132a5ce6d35b1e546eb6e2c287f
+[logstash]: http://logstash.net/
 
 </section>
 
