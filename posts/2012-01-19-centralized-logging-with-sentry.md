@@ -50,8 +50,8 @@ Ubuntu
 FreeBSD
 :   [Solid FreeBSD Server: PostgreSQL 9.0] (my own guide)
 
-[TransIP]: www.transip.nl
-[Linode]: www.linode.com
+[TransIP]: http://www.transip.nl
+[Linode]: http://www.linode.com
 [AWS]: http://aws.amazon.com
 [Brightbox]: http://brightbox.com/
 [Solid FreeBSD Server: the Foundation]: /posts/2011-04-05-solid-freebsd-server-foundation.html
@@ -81,9 +81,9 @@ Install it on FreeBSD by going to `/usr/ports/devel/py-pip` and run `make instal
 	pip install virtualenv
 	pip install virtualenvwrapper
 
-[pip]: www.pip-installer.org/
-[pip installation instructions]: www.pip-installer.org/en/latest/installing.html
-[virtualenv]: www.virtualenv.org/en/latest/index.html
+[pip]: http://www.pip-installer.org/
+[pip installation instructions]: http://www.pip-installer.org/en/latest/installing.html
+[virtualenv]: http://www.virtualenv.org/en/latest/index.html
 
 Virtualenvwrapper requires some environment settings to work correctly. I have the following in my `.zshrc` to have all my virtual environments in the `~/.virtualenvs` directory. If you have Bash, add it to your `.bashrc`.
 
