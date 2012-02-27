@@ -155,7 +155,7 @@ Finally, replace ``localhost.my.domain`` in your ``/etc/hosts`` file with the ho
 
 ## Unicode
 
-Unicode enables your system to handle non-ASCII characters like "š" and "☃". We will add an English login class which uses unicode. Edit `/etc/make.conf` and add the following after the Russian class.
+Unicode enables your system to handle non-ASCII characters like "š" and "☃". We will add an English login class which uses unicode. Edit `/etc/login.conf` and add the following after the Russian class.
 
     english|English Users Accounts:\
         :charset=UTF-8:\
