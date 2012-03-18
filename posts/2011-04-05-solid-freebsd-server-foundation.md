@@ -161,8 +161,6 @@ Unicode enables your system to handle non-ASCII characters like "š" and "☃". 
         :charset=UTF-8:\
         :lang=en_US.UTF-8:\
         :tc=default:
-        :charset=UTF-8:\
-        :lang=en_US.UTF-8:
 
 If you want your root user to use this class replace, around line 73 you can replace `:tc=default:` by `:tc=english:`. Run the following command to apply your changes:
 
