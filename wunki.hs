@@ -12,12 +12,12 @@ import Hakyll
 
 main :: IO ()
 main = hakyllWith config $ do
-  
+
     -- Compress CSS
     match "stylesheets/*" $ do
       route   idRoute
       compile compressCssCompiler
-    
+
     -- Copy images
     match "images/*" $ do
       route   idRoute
@@ -27,7 +27,7 @@ main = hakyllWith config $ do
     match "images/posts/*" $ do
       route   idRoute
       compile copyFileCompiler
-    
+
     -- Copy javascripts
     match "javascripts/*" $ do
       route   idRoute
@@ -47,7 +47,7 @@ main = hakyllWith config $ do
     match "robots.txt" $ do
       route   idRoute
       compile copyFileCompiler
-          
+
     -- Render posts
     match "posts/*" $ do
       route   $ setExtension ".html"
@@ -90,11 +90,11 @@ main = hakyllWith config $ do
     metaCompile $ require_ "tags"
       >>> arr tagsMap
       >>> arr (map (\(t, p) -> (tagIdentifier t, makeTagList t p)))
-        
+
     -- Render RSS feed
     match "rss.xml" $ route idRoute
     create "rss.xml" $ requireAll_ "posts/*" >>> renderRss feedConfiguration
-            
+
     -- Read templates
     match "templates/*" $ compile templateCompiler
 
@@ -119,7 +119,7 @@ main = hakyllWith config $ do
 
       tagIdentifier :: String -> Identifier (Page String)
       tagIdentifier = fromCapture "tags/*"
-    
+
       -- Common variables
       description = "A person's progression in the world of programming. Watch me how I stagger on the never-ending road to digital mastery."
       keywords = "petar, radosevic, wunki, bread and pepper, programming, haskell, freebsd, rest"
@@ -142,8 +142,8 @@ makeTagList tag posts =
 --
 wunkiCompiler :: Compiler Resource (Page String)
 wunkiCompiler = pageCompilerWith defaultHakyllParserState wunkiWriterOptions
-        
--- | Custom HTML options for pandoc        
+
+-- | Custom HTML options for pandoc
 --
 wunkiWriterOptions :: WriterOptions
 wunkiWriterOptions = defaultHakyllWriterOptions
@@ -157,7 +157,7 @@ config = defaultHakyllConfiguration
   { deployCommand = "rsync --checksum -ave 'ssh -p 22000' \
                      \_site/* wunki@141.138.137.36:/usr/local/www/wunki"
   }
-    
+
 feedConfiguration :: FeedConfiguration
 feedConfiguration = FeedConfiguration
     { feedTitle = "Wunki"
