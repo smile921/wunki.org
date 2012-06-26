@@ -2,4 +2,4 @@
 *.o
 wunki
 _*
-.hsenv
+.hsenv_wunki

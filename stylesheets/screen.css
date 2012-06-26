@@ -9,11 +9,11 @@ blockquote, q {quotes:"" "";}
 a img {border:none;}
 
 /* typography */
-body {font-size: 1.2em;color:#32271B;font-family:"skolar",Palatino,"Palatino Linotype",Georgia,"Times New Roman",Times,serif; word-spacing: 0.1em;}
-h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#000;font-family:"ff-tisa-web-pro",serif;}
-h1 {font-size:2.2em;line-height:1;margin-bottom:0.5em;}
-h2 {font-size:1.8em;margin-bottom:0.75em;}
-h3 {font-size:1.4em;line-height:1;margin-bottom:1em;}
+body {font-size: 1.2em;color:#32271B;font-family:"rooney-web",Palatino,"Palatino Linotype",Georgia,"Times New Roman",Times,serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#000;font-family:"prenton-condensed",serif;}
+h1 {font-size:3.2em;line-height:1;margin-bottom:0.2em;}
+h2 {font-size:2.4em;margin-bottom:0.3em;}
+h3 {font-size:1.6em;line-height:1;margin-bottom:1em;}
 h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
 h5 {font-size:1.1em;font-weight:bold;margin-bottom:1.5em;}
 h6 {font-size:1em;font-weight:bold;}
@@ -75,7 +75,7 @@ html {
     background-color: #fff;
 }
 
-div.container { margin: 50px 200px 50px 200px; }
+div.container { margin: 40px 200px 40px 200px; }
 
 body {
     min-width: 960px;
@@ -89,17 +89,14 @@ body {
 p + p { text-indent:2em; margin-top:-1.5em; }
 form p + p { text-indent: 0; } /* Don't want this in forms. */
 
-/* index page */
-#posts h1 { margin-top: 0.5em; }
-
 /* footer */
 footer { border-top: 1px solid #aaa; margin-top: 1em; }
 footer p { padding: 1em 0; font-size: 0.8em; line-height: 1.1em; color: #d4d4d4;}
 footer p a { color: #555; }
 
 /* article */
-article { margin-bottom: 1em; }
-article h1 { margin: 0em 0 1em 0; }
+article { margin: 1em; padding-top: 0.4em;}
+article h1 { margin: 0em 0 0.5em 0; }
 article h2 a,
 article h3 a { color: #000; }
 article q:before { content: '\201C'; }
@@ -157,15 +154,14 @@ section#page img { float: left; margin-left: 1.5em; text-align: center; }
 section#page h1 { margin: 0em 0 1em 0; }
 
 /* about me */
-div.about { border-bottom: 1px solid #d3d3d3; border-top: 1px solid #d3d3d3; padding: 1.2em 0 0 0; text-align: center; }
+div.about { border-bottom: 1px solid #d3d3d3; border-top: 1px solid #d3d3d3; padding: 1.1em 0 0 0; text-align: center; }
 div.container figcaption { font-size: 0.9em; font-style: italic; text-align: center; }
 
 /* table of contents */
-nav h1 { text-align: center; }
-ol#toc { padding: 0;}
+ol#toc { padding: 0; margin: 2em 0;}
 ol#toc li { list-style-type: none; }
-ol#toc li p { margin-bottom: 1em; font-size: 0.9em; font-style: color: #333;}
-ol#toc li h2 { margin: 0; padding: 0; font-size: 1.4em; line-height: 1.5em;}
+ol#toc li > a { font-size: 1.3em; }
+ol#toc li p { margin-bottom: 1.3em; line-height: 1em; font-size: 0.9em; font-style: color: #333;}
 
 /* Code */
 table.sourceCode,
@@ -227,7 +223,6 @@ header.home{
     left: 0;
     margin-top: 30px;
     background: url("/images/wunki-label.png") no-repeat;
-    font-family: adelle,serif;
     font-weight: bold;
 }
 
@@ -235,7 +230,7 @@ header.home h1 {
     margin: 0;
     padding: 0;
     text-indent: 22px;
-    width: 175px;
+    width: 130px;
     z-index: 100; /* the stack order: foreground */
     text-transform: lowercase;
 	  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.6);
@@ -244,6 +239,8 @@ header.home h1 {
 	  box-shadow: 0 0 3px rgba(0,0,0,0.6);
     text-shadow: 0px -1px 0px #720103;
     font-size: 36px;
+    font-family: "prenton-condensed";
+    letter-spacing: 2px;
 }
 
 header h1 a {
