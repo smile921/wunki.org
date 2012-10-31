@@ -9,8 +9,8 @@ blockquote, q {quotes:"" "";}
 a img {border:none;}
 
 /* typography */
-body {font-size: 1.2em;color:#32271B;font-family:"rooney-web",Palatino,"Palatino Linotype",Georgia,"Times New Roman",Times,serif;}
-h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#000;font-family:"prenton-condensed",serif;}
+body {font-size: 1.2em;color:#32271B;font-family:"Ubuntu",Palatino,"Palatino Linotype",Georgia,"Times New Roman",Times,serif;font-weight:300;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal;color:#000;font-family:"Ubuntu Condensed",serif;}
 h1 {font-size:3.2em;line-height:1;margin-bottom:0.2em;}
 h2 {font-size:2.4em;margin-bottom:0.3em;}
 h3 {font-size:1.6em;line-height:1;margin-bottom:1em;}
@@ -33,7 +33,7 @@ abbr, acronym {border-bottom:1px dotted #666;}
 address {margin:0 0 1.5em;font-style:italic; padding: 0;}
 del {color:#666;}
 pre {margin:0 0 1.5em 0;white-space:pre;}
-pre, code, tt {font-family:"droid-sans-mono","DejaVu Sans Mono","Bitstream Vera Sans Mono","Andale Mono","Courier New",monospace;}
+pre, code, tt {font-family:"Ubuntu Mono","DejaVu Sans Mono","Bitstream Vera Sans Mono","Andale Mono","Courier New",monospace;}
 li ul, li ol {margin:0;}
 ul, ol {margin:0 1.5em 1.5em 0;padding-left:3.333em;}
 ul {list-style-type:disc;}
@@ -239,7 +239,7 @@ header.home h1 {
 	  box-shadow: 0 0 3px rgba(0,0,0,0.6);
     text-shadow: 0px -1px 0px #720103;
     font-size: 36px;
-    font-family: "prenton-condensed";
+    font-family: "Ubuntu Condensed";
     letter-spacing: 2px;
 }
 
@@ -293,7 +293,7 @@ body.notfound div.container h1 a { color: #000; }
   border-right: 1px solid #efefef;
   font-size: 0.6em;
   text-align: center;
-  font-family: "droid-sans-mono", "Menlo", "monospace";
+  font-family: "Ubuntu Mono", "Menlo", "monospace";
 }
 
 a#toTop { color: #4D4D4D; }
