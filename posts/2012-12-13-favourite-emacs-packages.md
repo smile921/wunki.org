@@ -34,9 +34,9 @@ emails while offline.
 
 ## Projectile
 
-[Projectile] is a libabry which helps you work with project within Haskell. We
-often want to find a file inside the currently active project or maybe ack
-from the root of the project. All this is possible by projectile.
+[Projectile] is a libabry which helps you work with projects. I often want to
+find a file inside the currently active project or maybe ack from the root of
+the project. All this is possible by projectile.
 
 You don't need to define your own projects manually, it looks at git,
 mercuriaal or bazaar directories. My most used functions are
