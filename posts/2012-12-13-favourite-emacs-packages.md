@@ -71,9 +71,11 @@ for changes.
 ## Twittering mode
 
 My colleagues laugh at me whenever they see how I use twitter and I must
-admit, it does need some getting used to. But the moment you find outn how
-[Twitterific] works, you become a Twitter powerhouse. Updating, replying and
+admit, it does need some getting used to. But the moment you find out how
+[Twittering mode] works, you become a Twitter powerhouse. Updating, replying and
 retweeting with the press of a few buttons.
+
+[Twittering mode]: http://twmode.sourceforge.net/
 
 ## Expand region
 
