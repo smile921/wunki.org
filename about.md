@@ -29,22 +29,17 @@ software development. Take a look at my [Github page] to find
 [django-userena], an account management application for [Django], my
 [dotfiles] and some random bytes.
 
-I do most my work on [OSX] or [ArchLinux], staying in my editor
-[Emacs]. Favourite software is [1Password] that generates a random password
-for every service that I use. [Chrome] for browsing the web and [Org mode] to
-manage my tasks. Most of the day I'm listening to [Di.fm] or [Somafm] radio.
+I do all my work on [Debian], staying in my editor [Emacs]. Favourite software
+is thus [Emacs] for editing, mail, IRC and twitter. [Conkeror] for browsing
+the web and [Org mode] to manage my tasks. Most of the day I'm listening to
+[Di.fm] or [Somafm] radio.
 
 [Django]: http://djangoproject.com "Django's homepage"
 [Github page]: https://github.com/wunki "Wunki's Github page"
 [django-userena]: http://django-userena.com "Userena's hompepage"
 [dotfiles]: https://github.com/wunki/wunki-dotfiles "Wunki's dotfiles"
-[Vim]: http://www.vim.org "Vim homepage"
-[iTerm2]: http://sites.google.com/site/iterm2home/ "Iterm2 Homepage"
-[1Password]: http://agilewebsolutions.com/onepassword "1Password homepage"
-[Chrome]: https://www.google.com/chrome "Chrome homepage"
-[Things]: http://culturedcode.com "CulturedCode homepage"
-[OSX]: http://www.apple.com/macosx/ "Homepage of OS X"
-[ArchLinux]: http://www.archlinux.org/ "Homepage of ArchLinux"
+[Conkeror]: http://conkeror.org/ "Conkeror homepage"
+[Debian]: http://www.debian.org/ "Debian homepage"
 [Emacs]: http://www.gnu.org/software/emacs/ "Emacs homepage"
 [Org mode]: http://orgmode.org/ "Org homepage"
 [Di.fm]: http://di.fm "Digitally Imported homepage"
@@ -52,12 +47,12 @@ manage my tasks. Most of the day I'm listening to [Di.fm] or [Somafm] radio.
 
 ## Peripherals
 
-I develop on my Macbook Pro (2011) with enough RAM and a SSD harddisk. I keep
-my servers running on [FreeBSD]. My periphials are a non-printed, black
-[HHKB II Proff.] keyboard -- used for typing in [Dvorak] -- and
-[Sennheiser HD 380 Pro] headphone.
+I develop on my Thinkpad X1 Carbon with enough RAM and a SSD harddisk. I keep
+my servers running on [FreeBSD]. I do all my typing on a 
+[Realforce 87U Tenkeyless] keyboard -- used for typing in [Dvorak] -- and listen
+to music with [Sennheiser HD 380 Pro] headphones.
 
 [FreeBSD]: http://www.freebsd.org/ "FreeBSD homepage"
-[HHKB II Proff.]: http://elitekeyboards.com/products.php?pid=pdkb400bn "Elitekeyboards, where I bought mine.."
+[Realforce 87U Tenkeyless]: http://elitekeyboards.com/products.php?sub=topre_keyboards,rftenkeyless&pid=rf_se1700 "Elitekeyboards site"
 [Dvorak]: http://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard "Wikipedia on Dvorak"
 [Sennheiser HD 380 Pro]: http://www.sennheiser.com/sennheiser/home_en.nsf/root/professional_headphones-headsets_headphones_502717 "Sennheiser HD 380 Pro product page"
