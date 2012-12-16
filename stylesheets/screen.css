@@ -134,10 +134,10 @@ article section#comment {
 }
 
 article figure { float: right; margin: 0 2em 1em 2em; }
-article img { 
-    margin: 1em 0;
+article img {
     width: 95%;
     border: 5px solid #e5e5e5;
+    outline: none;
 }
 
 .footnotes hr {

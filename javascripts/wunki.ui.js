@@ -10,15 +10,8 @@ $(document).ready(function() {
         }
     });
 
-    $(".fancybox").fancybox({
-        openEffect : 'elastic',
-        closeEffect : 'elastic',
-        padding : 0,
-        helpers : {
-    		    title : {
-    			      type : 'over'
-    		    }
-    	  }
+    $(".colorbox").colorbox({
+        fixed: true
     });
 
     // Add extra information to code blocks

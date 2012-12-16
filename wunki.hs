@@ -43,11 +43,6 @@ main = hakyllWith config $ do
       route   idRoute
       compile copyFileCompiler
 
-    -- Copy fancybox
-    match "fancybox/**" $ do
-      route   idRoute
-      compile copyFileCompiler
-
     -- Copy robots.txt
     match "robots.txt" $ do
       route   idRoute

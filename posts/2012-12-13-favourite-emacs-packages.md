@@ -21,7 +21,7 @@ made me use the mouse, Mutt didn't integrate with [org-mode], [Gnus] required
 a 400 lines configuration and [Wanderlust] didn't work as I
 wanted. 
 
-<a href="/images/posts/emacs-screenshot-mu4e.png" class="fancybox" title="Emacs on Mu4e"><img src="/images/posts/emacs-screenshot-mu4e-thumb.png" alt="Mu4e on Emacs"></a>
+<a class="colorbox" href="/images/posts/emacs-screenshot-mu4e.png" title="Emacs on Mu4e"><img src="/images/posts/emacs-screenshot-mu4e.png" /></a>
 
 Mu4e seems to have exacly what I wanted in an email client. It required little
 configuration, is very fast (search) and also allowed me to write and read
