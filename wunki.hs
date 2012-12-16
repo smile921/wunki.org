@@ -1,14 +1,14 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
-import Prelude hiding (id)
-import Control.Arrow ((>>>), (***), arr)
-import Control.Category (id)
-import Control.Monad (forM_)
-import Data.Monoid (mempty, mconcat)
-import Text.Pandoc (WriterOptions(..), defaultWriterOptions)
+import           Control.Arrow    (arr, (***), (>>>))
+import           Control.Category (id)
+import           Control.Monad    (forM_)
+import           Data.Monoid      (mconcat, mempty)
+import           Prelude          hiding (id)
+import           Text.Pandoc      (WriterOptions (..), defaultWriterOptions)
 
-import Hakyll
+import           Hakyll
 
 main :: IO ()
 main = hakyllWith config $ do
@@ -38,8 +38,13 @@ main = hakyllWith config $ do
       route   idRoute
       compile copyFileCompiler
 
-    -- Copy files
+    -- Copy patches
     match "patches/*" $ do
+      route   idRoute
+      compile copyFileCompiler
+
+    -- Copy fancybox
+    match "fancybox/**" $ do
       route   idRoute
       compile copyFileCompiler
 
@@ -163,6 +168,7 @@ feedConfiguration = FeedConfiguration
     { feedTitle = "Wunki"
     , feedDescription = "A Few Bytes of Petar Radosevic"
     , feedAuthorName = "Petar Radosevic"
+    , feedAuthorEmail = "petar@wunki.org"
     , feedRoot = "http://www.wunki.org"
     }
 

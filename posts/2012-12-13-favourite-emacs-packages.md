@@ -17,14 +17,15 @@ available on [Marmelade] or [Melpa] through the Emacs package.el.
 ## Mu4e
 
 I tried a lot of email clients before finally coming across [mu4e]. [Sparrow]
-made me use the mouse, Mutt didn't integrate with [org-mode], [Gnus] required a
-400 lines configuration and [Wanderlust] didn't work as I wanted.
+made me use the mouse, Mutt didn't integrate with [org-mode], [Gnus] required
+a 400 lines configuration and [Wanderlust] didn't work as I
+wanted. 
+
+<a href="/images/posts/emacs-screenshot-mu4e.png" class="fancybox" title="Emacs on Mu4e"><img src="/images/posts/emacs-screenshot-mu4e-thumb.png" alt="Mu4e on Emacs"></a>
 
 Mu4e seems to have exacly what I wanted in an email client. It required little
 configuration, is very fast (search) and also allowed me to write and read
 emails while offline.
-
-![Mu4e on Emacs](/images/posts/emacs-screenshot-mu4e.png "Mu4e on Emacs")
 
 [mu4e]: http://www.djcbsoftware.nl/code/mu/mu4e.html
 [Sparrow]: http://www.sparrowmailapp.com/
@@ -50,9 +51,8 @@ mercuriaal or bazaar directories. My most used functions are
 Vim was the first to come out with a nicely formatted modebar called
 [vim-powerline]. A few months later Emacs followed with
 [emacs-powerline]. This package is mostly eye candy, benefit being that it
-does give a better overview of you current Emacs status.
-
-![Powerline on Emacs](/images/posts/emacs-screenshot-powerline.png "Powerline on Emacs")
+does give a better overview of you current Emacs
+status.
 
 [vim-powerline]: https://github.com/Lokaltog/vim-powerline
 [emacs-powerline]: https://github.com/jonathanchu/emacs-powerline
