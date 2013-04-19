@@ -1,9 +1,9 @@
---
+---
 title: Centralized Logging with Sentry
-keywords: django, sentry, freebsd
+description: BLAAA
 tags: django
-description: Setting up Django's sentry
---
+keywords: django, sentry, freebsd
+---
 
 I like getting email, being the `Exception` if it starts with "[Django] Error…". I'm willing to bet that 95% of the Django projects out there use email for error handling their production sites. At [Bread & Pepper] we decided to do something about it because we were losing errors in our inbox and lost track of what was fixed.
 

@@ -1,9 +1,9 @@
---
+---
 title: Learning Haskell by Building Snugio
 description: How I'm going to learn Haskell by copying webmachine to Haskell and calling it snugio.
 tags: haskell, snugio
 keywords: haskell, snugio, webmachine, rest, api
---
+---
 
 Summer of 2009, I was sitting on the beach of Bol in Croatia, with
 [Real World Haskell] book and a Moleskine. I was trying to learn this

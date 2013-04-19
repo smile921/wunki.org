@@ -1,9 +1,9 @@
---
+---
 title: Learn by Copy, Rules for Ignoring NIH Syndrome
 tags: thoughts
 keywords: not invented here syndrome, programming, thoughts
 description: A strange post about how the NIH syndrome can help you become an expert programmer.
---
+---
 
 When telling me you are writing a new library, chances are that the obnoxious
 me is right by replying "It has been done before, just use that". This is a
