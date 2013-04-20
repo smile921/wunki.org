@@ -150,7 +150,7 @@ config = defaultConfiguration
 --------------------------------------------------------------------------------
 feedConfiguration :: String -> FeedConfiguration
 feedConfiguration title = FeedConfiguration
-    { feedTitle       = "Wunki " ++ title
+    { feedTitle       = "Wunki | " ++ title
     , feedDescription = "Personal blog of Petar Radosevic"
     , feedAuthorName  = "Petar Radosevic"
     , feedAuthorEmail = "petar@wunki.org"
