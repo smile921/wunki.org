@@ -1,6 +1,6 @@
 ---
 title: Centralized Logging with Sentry
-description: BLAAA
+summary: A HOWTO on how te create a centralized logging system with Sentry
 tags: django
 keywords: django, sentry, freebsd
 ---

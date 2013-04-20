@@ -1,6 +1,6 @@
 ---
 title: CFengine3 on FreeBSD
-description: Short guide how to install CFengine 3 on FreeBSD
+summary: Short guide how to install CFengine 3 on FreeBSD
 tags: freebsd, cfengine
 keywords: freebsd, cfengine, installation
 ---

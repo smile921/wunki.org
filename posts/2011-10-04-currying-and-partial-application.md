@@ -1,6 +1,6 @@
 ---
 title: Currying and Partial Application
-description: A explanation of currying and it's use in partial function application.
+summary: A explanation of currying and it's use in partial function application.
 tags: currying, haskell
 keywords: currying, haskell, partial application, prefix, infix, curry
 ---

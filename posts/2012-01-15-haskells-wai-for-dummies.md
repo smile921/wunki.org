@@ -1,8 +1,8 @@
 ---
 title: Haskell's WAI for Dummies
+summary: Understanding the fundamentals of Haskell's Web Application Interface allows us to create our own tools for the web.
 keywords: wai, haskell, snugio
 tags: haskell, snugio
-description: Understanding the fundamentals of Haskell's Web Application Interface allows us to create our own tools for the web.
 ---
 
 In my previous post "[Learning Haskell by Building Snugio]" I wrote that I was going to port Erlang's [webmachine] -- a tool to build REST API's -- to Haskell. In my port I'm using Haskell's Web Application Interface ([WAI]) and what you are reading is an easy introduction to it.

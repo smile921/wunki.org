@@ -49,28 +49,33 @@ main = hakyllWith config $ do
         route idRoute
         compile $ do
             list <- postList tags "posts/*" recentFirst
+            let context = (constField "title" "Posts" `mappend`
+                           constField "summary" "Posts" `mappend`
+                           constField "posts" list `mappend`
+                           constField "keywords" "archive, all posts" `mappend`
+                           defaultContext)
             makeItem ""
-                >>= loadAndApplyTemplate "templates/posts.html"
-                        (constField "title" "Posts" `mappend`
-                            constField "posts" list `mappend`
-                            defaultContext)
-                >>= loadAndApplyTemplate "templates/default.html" defaultContext
+                >>= loadAndApplyTemplate "templates/posts.html" context
+                >>= loadAndApplyTemplate "templates/default.html" context
                 >>= relativizeUrls
 
     -- Post tags
     tagsRules tags $ \tag pattern -> do
         let title = "Posts tagged " ++ tag
+        let summary = "View all posts which are tagged with " ++ tag
 
         -- Copied from posts, need to refactor
         route idRoute
         compile $ do
             list <- postList tags pattern recentFirst
+            let context = (constField "title" title `mappend`
+                           constField "summary" summary `mappend`
+                           constField "posts" list `mappend`
+                           constField "keywords" (tag ++ ", tag, tags") `mappend`
+                           defaultContext)
             makeItem ""
-                >>= loadAndApplyTemplate "templates/posts.html"
-                        (constField "title" title `mappend`
-                            constField "posts" list `mappend`
-                            defaultContext)
-                >>= loadAndApplyTemplate "templates/default.html" defaultContext
+                >>= loadAndApplyTemplate "templates/posts.html" context
+                >>= loadAndApplyTemplate "templates/default.html" context
                 >>= relativizeUrls
 
         -- Create RSS feed as well

@@ -1,6 +1,6 @@
 ---
 title: Your Users are not Currency
-description: We have conditioned our users to expect software to be free.
+summary: We have conditioned our users to expect software to be free.
 tags: invy
 keywords: invy, money, monetizing, ads
 ---

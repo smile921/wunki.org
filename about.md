@@ -1,6 +1,6 @@
 ---
 title: The Guy Behind This Website
-description: A short summary about this website and the guy who runs it.
+summary: A short summary about this website and the guy who runs it.
 keywords: about, petar, radosevic, wunki, setup, dotfiles, github, emacs, vim
 ---
 

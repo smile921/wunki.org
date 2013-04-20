@@ -1,6 +1,6 @@
 ---
 title: Favourite Emacs Packages
-description: List of my favourite Emacs packages: mu4e, projectile, powerline, twittering-mode and expand-region.
+summary: List of my favourite Emacs packages: mu4e, projectile, powerline, twittering-mode and expand-region.
 tags: emacs
 keywords: emacs, mu4e, projectile, powerline, twittering-mode, expand-region
 ---

@@ -1,6 +1,7 @@
 ---
 title: Solid FreeBSD Server: PostgreSQL 9.0
-description: Building further on a solid FreeBSD installation, this time I show you how to install PostgreSQL which you can connect remotely to.
+summary: Building further on a solid FreeBSD installation, this time I show you how to install PostgreSQL which you can connect remotely to.
+keywords: freebsd, server, postgresql, guide
 tags: freebsd, server, postgresql, guide
 ---
 

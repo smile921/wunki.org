@@ -1,6 +1,6 @@
 ---
 title: Solid FreeBSD Server: the Foundation
-description: FreeBSD is my distro of choice whenever I need a server. This guide shows how to build a solid FreeBSD server from scratch.
+summary: FreeBSD is my distro of choice whenever I need a server. This guide shows how to build a solid FreeBSD server from scratch.
 tags: freebsd, server, guide
 keywords: freebsd, server, basic, security, setup, ec2, brightbox
 ---
