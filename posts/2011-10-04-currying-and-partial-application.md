@@ -5,15 +5,10 @@ tags: currying, haskell
 keywords: currying, haskell, partial application, prefix, infix, curry
 ---
 
-A few days ago I wrote a post with the same subject as this one. Being proud
-of the result I decided to post it on [Reddit] so others could learn from my
-thorough understanding on the subject. Boy, was I wrong.
-
-Luckily, the Haskell community is one of teachers and I received valuable
-feedback about the correct meaning of currying. Although I needed some time to
-recover from my initial failure, it would be foolish to leave it at that. So,
-with all the feedback printed and annotated, here goes my second try at
-explaining _currying_ and _partial function_ application.
+In a discussion about "learning Haskell" you will always hear that the
+language will "blow your mind". For me, this was was when I understood
+Currying and partial function application. I'm so excited about the beauty of
+this logic that I wanted to dedicate a post to it.
 
 ## What is currying?
 

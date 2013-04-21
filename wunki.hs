@@ -61,7 +61,7 @@ main = hakyllWith config $ do
 
     -- Post tags
     tagsRules tags $ \tag pattern -> do
-        let title = "Posts tagged " ++ tag
+        let title = "Posts tagged with \"" ++ tag ++ "\""
         let summary = "View all posts which are tagged with " ++ tag
 
         -- Copied from posts, need to refactor
