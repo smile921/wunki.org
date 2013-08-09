@@ -145,7 +145,7 @@ feedCtx = mconcat
 --------------------------------------------------------------------------------
 config :: Configuration
 config = defaultConfiguration
-    { deployCommand = "rsync -avz -e ssh --checksum --progress ./_site/ wunki@wunki.org:www/wunki/" }
+    { deployCommand = "./wunki clean; ./wunki build; rsync -avz -e ssh --checksum --progress ./_site/ wunki@wunki.org:www/wunki/" }
 
 --------------------------------------------------------------------------------
 feedConfiguration :: String -> FeedConfiguration
