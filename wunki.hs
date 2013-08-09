@@ -145,7 +145,7 @@ feedCtx = mconcat
 --------------------------------------------------------------------------------
 config :: Configuration
 config = defaultConfiguration
-    { deployCommand = "./wunki clean; ./wunki build; jekyll-s3 -h"}
+    { deployCommand = "rsync -avz -e ssh --checksum --progress ./_site/ wunki@wunki.org:www/wunki/" }
 
 --------------------------------------------------------------------------------
 feedConfiguration :: String -> FeedConfiguration
