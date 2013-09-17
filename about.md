@@ -4,24 +4,22 @@ summary: A short summary about this website and the guy who runs it.
 keywords: about, petar, radosevic, wunki, setup, dotfiles, github, emacs, vim
 ---
 
+# About
+
 ![](/images/writing-code.png)
 
 Wunki is written by Petar Radošević, a '82 born Croatian living in the
-Netherlands. I spend most of my day write code in Erlang, Clojure, Haskell and
-Python. I use these languages for creating API's for a wide variety of projects.
+Netherlands. I spend most of my day write code in Clojure, Haskell and
+Python.
 
 ## Sofware
 
 Most of the tools I use are open source and the things I write can be found at
-my [Github]. I do most my work in [Emacs] where I also love to use
-[Org mode] to manage my tasks. Most of the day I'm
-listening to [Di.fm] or [Somafm] radio.
+[Github]. Things get done in [Emacs] and I love to use [Org mode] to manage my
+tasks. Most of the day I'm listening to [Di.fm] or [Somafm] radio.
 
-[Django]: http://djangoproject.com "Django's homepage"
 [Github]: https://github.com/wunki "Wunki's Github page"
 [dotfiles]: https://github.com/wunki/wunki-dotfiles "Wunki's dotfiles"
-[Conkeror]: http://conkeror.org/ "Conkeror homepage"
-[Debian]: http://www.debian.org/ "Debian homepage"
 [Emacs]: http://www.gnu.org/software/emacs/ "Emacs homepage"
 [Org mode]: http://orgmode.org/ "Org homepage"
 [Di.fm]: http://di.fm "Digitally Imported homepage"
@@ -29,10 +27,10 @@ listening to [Di.fm] or [Somafm] radio.
 
 ## Peripherals
 
-I develop on my Thinkpad X1 Carbon with enough RAM and a SSD harddisk. I keep
-my servers running on [FreeBSD]. I do all my typing on a 
-[Realforce 87U Tenkeyless] keyboard -- used for typing in [Dvorak] -- and listen
-to music with [Sennheiser HD 380 Pro] headphones.
+I develop on a Thinkpad X1 Carbon and do all my typing on a
+[Realforce 87U Tenkeyless] keyboard -- I type in [Dvorak] -- while listening
+to music with the [Sennheiser HD 380 Pro] headphones. I keep my servers
+running on [FreeBSD]
 
 [FreeBSD]: http://www.freebsd.org/ "FreeBSD homepage"
 [Realforce 87U Tenkeyless]: http://elitekeyboards.com/products.php?sub=topre_keyboards,rftenkeyless&pid=rf_se1700 "Elitekeyboards site"

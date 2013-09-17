@@ -37,11 +37,13 @@ main = hakyllWith config $ do
     match "posts/*" $ do
         route   $ setExtension ".html"
         compile $ do
+            let context = (constField "page" "post" `mappend`
+                           defaultContext)
             pandocCompiler
                 >>= saveSnapshot "content"
                 >>= return . fmap demoteHeaders
                 >>= loadAndApplyTemplate "templates/post.html" (postCtx tags)
-                >>= loadAndApplyTemplate "templates/default.html" defaultContext
+                >>= loadAndApplyTemplate "templates/default.html" context
                 >>= relativizeUrls
 
     -- Post list
@@ -52,6 +54,7 @@ main = hakyllWith config $ do
             let context = (constField "title" "Posts" `mappend`
                            constField "summary" "Posts" `mappend`
                            constField "posts" list `mappend`
+                           constField "page" "posts" `mappend`
                            constField "keywords" "archive, all posts" `mappend`
                            defaultContext)
             makeItem ""
@@ -71,6 +74,7 @@ main = hakyllWith config $ do
             let context = (constField "title" title `mappend`
                            constField "summary" summary `mappend`
                            constField "posts" list `mappend`
+                           constField "page" "tagged" `mappend`
                            constField "keywords" (tag ++ ", tag, tags") `mappend`
                            defaultContext)
             makeItem ""
@@ -90,9 +94,10 @@ main = hakyllWith config $ do
         route idRoute
         compile $ do
             list <- postList tags "posts/*" $ fmap (take 10) . recentFirst
-            let indexContext = constField "posts" list `mappend`
-                    field "tags" (\_ -> renderTagList tags) `mappend`
-                    defaultContext
+            let indexContext = (constField "posts" list `mappend`
+                                constField "page" "home" `mappend`
+                                field "tags" (\_ -> renderTagList tags) `mappend`
+                                defaultContext)
 
             getResourceBody
                 >>= applyAsTemplate indexContext
@@ -105,9 +110,12 @@ main = hakyllWith config $ do
     -- Render some static pages
     match (fromList pages) $ do
         route   $ setExtension ".html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
-            >>= relativizeUrls
+        compile $ do
+            let wunkiDefaultContext = (constField "page" "static" `mappend`
+                                      defaultContext)
+            pandocCompiler
+                >>= loadAndApplyTemplate "templates/default.html" wunkiDefaultContext
+                >>= relativizeUrls
 
     -- Render RSS feed
     create ["rss.xml"] $ do

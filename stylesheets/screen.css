@@ -686,6 +686,23 @@ body.postlist div.container,body.notfound div.container
 	  padding-top:.1em;
 }
 
+/* About page */
+body#static img {
+    float: right;
+    padding-left: 1em;
+}
+
+/* Tag */
+body#tagged ul {
+    list-style-type: none;
+    padding: 1em 0;
+}
+
+body#tagged ul li a.post-title {
+    font-size: 1.2em;
+}
+
+/* Source code */
 code.sourceCode span.kw { color: #204a87; font-weight: bold } /* Keyword */
 code.sourceCode span.dt { color: #204a87 } /* Keyword.Type */
 code.sourceCode span.dv { color: #0000cf } /* Literal.Number.Integer */
