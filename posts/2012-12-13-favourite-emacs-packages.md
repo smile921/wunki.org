@@ -55,7 +55,7 @@ does give a better overview of you current Emacs
 status.
 
 [vim-powerline]: https://github.com/Lokaltog/vim-powerline
-[emacs-powerline]: https://github.com/jonathanchu/emacs-powerline
+[emacs-powerline]: https://github.com/milkypostman/powerline
 
 ## Magit
 
