@@ -72,6 +72,8 @@ Payload = {[{task, <<"journals.tasks.send_email">>},
 Msg = #amqp_msg{props = Props, payload = jiffy:encode(Payload)},
             
 %% 6: send the message
+Publish = #'basic.publish'{exchange = <<"celery">>,
+                           routing_key = <<"celery">>},
 amqp_channel:cast(Channel, Publish, Msg).
 ```
 
